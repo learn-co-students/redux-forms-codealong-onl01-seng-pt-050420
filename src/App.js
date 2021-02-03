@@ -1,14 +1,19 @@
-import React, { Component } from 'react';
-import CreateTodo from './components/todos/CreateTodo'
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <CreateTodo />
+import React, { Component } from 'react'
+ 
+class CreateTodo extends Component {
+  render(){
+    return(
+      <div>
+        <form>
+          <p>
+            <label>add todo</label>
+            <input type="text" onChange={(event) => this.handleChange(event)}/>
+          </p>
+          <input type="submit" />
+        </form>
       </div>
     );
   }
-}
-
-export default App;
+};
+ 
+export default CreateTodo;
