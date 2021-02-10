@@ -1,9 +1,21 @@
 # Creating Items with Redux
 
+
+
+
+
+
+
 ## Introduction
 
 With this lesson, we will begin our journey in implementing the CRUD actions while
 using the Redux pattern.
+
+
+
+
+
+
 
 ## Objectives
 
